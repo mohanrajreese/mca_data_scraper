@@ -43,7 +43,7 @@ async def run():
         db = Database(db_name)
         with db:
             db.create_table()
-            browser = await playwright.chromium.launch(headless=False, timeout=600000)
+            browser = await playwright.chromium.launch(headless=True, timeout=600000)
             context = await browser.new_context()
             page = await context.new_page()
             start_page = 1
