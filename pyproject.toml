@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mca-data-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Mohanraj <mohanraj@loanwiser.in>"]
+readme = "README.md"
+packages = [{include = "mca_data_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+playwright = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
