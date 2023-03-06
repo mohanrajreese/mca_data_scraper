@@ -9,6 +9,7 @@ packages = [{include = "mca_data_scraper"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 playwright = "^1.31.1"
+sqlite-utils = "^3.30"
 
 
 [build-system]
